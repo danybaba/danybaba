@@ -1,0 +1,132 @@
+#{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-image:  url(56.webp);
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+header :hover{
+    color: white;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 30px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:azure;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+
+}
+ul li.active a{
+    background-color: white;
+    color:black;
+
+
+}
+.image img{
+    float: left;
+    height: auto;
+    width: 150px;
+    margin: 25px;
+}
+ 
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.function{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+.function h1{
+    
+    color:whitesmoke;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    
+    transform:translate(-50%,-50%);
+
+
+
+}
+.btn{
+    border:1px solid blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: red;
+    border: 1px solid transparent;
+
+}
+.button  :hover{
+    background-color: blue;
+    color:black;
+}
+.hover{
+   position: absolute;
+   top: 50%;
+    width: 90%;
+    padding: 10px;
+    
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 250px;
+    background: lightseagreen;
+    margin: 0px 10px;
+    transition: 1s;
+    text-align: center;
+    transition: 0.6s ease;
+    
+
+}
+.box p{
+    width: 200px;
+    text-align: center;
+    color:chartreuse
+    
+    
+    
+}
+
+
+
+
+.box  :hover{
+    transform: scale(1.1);
+    background: coral;
+    box-shadow: 2px 2px 2px;
+    z-index: 2;
+}
+   
+   
+ 
+
+
+        
